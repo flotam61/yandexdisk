@@ -4,7 +4,7 @@ import yadisk
 
 class YaUploader:
     def __init__(self, token: str):
-        self.token = "AQAAAAAUxqCcAADLWz8udiiRREVSkH-fQmYrqIA"
+        self.token =
 
     def get_headers(self):
         return {
@@ -35,7 +35,7 @@ class YaUploader:
 
 if __name__ == '__main__':
     path_to_file = 'C:/Users/Максим/PycharmProjects/httpdz3/DZ2'
-    token = "AQAAAAAUxqCcAADLWz8udiiRREVSkH-fQmYrqIA"
+    token =
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file)
 
